@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Commissioner:400,500,700);
+
+:root {
+  --clr-moderate-cyan: hsl(176, 50%, 47%);
+  --clr-d-cyan: hsl(176, 72%, 28%);
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-white: #fff;
+  --clr-d-gray: hsl(0, 0%, 48%);
+  --text-p: 15px;
+}
+* {
+  margin: 0;
+  font-family: 'Commissioner', sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgba(240, 240, 240, .4);
+}
+button:hover {
+  cursor: pointer;
+}
+@media (min-width: 666px) {
+  :root {
+    --text-p : 18px;
+  }
+}
